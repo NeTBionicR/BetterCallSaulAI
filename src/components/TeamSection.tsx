@@ -16,28 +16,7 @@ const teamMembers: TeamMember[] = [
     role: "Lead Full-Stack Developer + UI Designer",
     imageUrl: "logo/Adam.jpg",
     linkedinUrl: "https://www.linkedin.com/in/adammaatouk",
-  },
-  {
-    id: 2,
-    name: "Nessrine Tabta",
-    role: "Lead Back-End Developer + AI Scrapper",
-    imageUrl: "logo/Nessrine.png",
-    linkedinUrl: "https://www.linkedin.com/in/nessrinetabta/",
-  },
-  {
-    id: 3,
-    name: "Ayoub Khial",
-    role: "Back-End Developer + AI Scrapper",
-    imageUrl: "logo/Ayoub.png",
-    linkedinUrl: "https://www.linkedin.com/in/ayoub-khial/",
-  },
-  {
-    id: 4,
-    name: "Jordan Hodali",
-    role: "Full-Stack Engineer",
-    imageUrl: "logo/CJ.jpg",
-    linkedinUrl: "https://www.linkedin.com/in/jordanhod/",
-  },
+  }
 ];
 
 const TeamSection = () => {
@@ -63,13 +42,6 @@ const TeamSection = () => {
         </h2>
 
         <div className="relative flex items-center justify-center">
-          {/* Left Arrow */}
-          <button
-            onClick={goToPrevious}
-            className="absolute left-4 lg:left-8 p-2 text-white hover:text-blue-200 transition-colors"
-          >
-            <Icon icon="mdi:chevron-left" className="h-12 w-12" />
-          </button>
 
           {/* Member Card */}
           <div className="flex flex-col items-center text-center">
@@ -87,14 +59,6 @@ const TeamSection = () => {
             <h3 className="text-2xl font-bold text-white">{currentMember.name}</h3>
             <p className="text-xl text-gray-200 mt-2">{currentMember.role}</p>
           </div>
-
-          {/* Right Arrow */}
-          <button
-            onClick={goToNext}
-            className="absolute right-4 lg:right-8 p-2 text-white hover:text-blue-200 transition-colors"
-          >
-            <Icon icon="mdi:chevron-right" className="h-12 w-12" />
-          </button>
         </div>
       </div>
     </div>

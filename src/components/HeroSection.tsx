@@ -37,17 +37,6 @@ const HeroSection = ({
           </p>
         </div>
 
-        <div className="flex justify-center">
-          <Button
-            size="lg"
-            className="bg-blue-600 hover:bg-blue-700 h-12 px-6"
-            onClick={onAskQuestion}
-          >
-            <MessageSquare className="mr-2 h-5 w-5" />
-            Ask a Legal Question
-          </Button>
-        </div>
-
         <div className="grid md:grid-cols-2 gap-6 mt-12">
           <Card className="p-6 bg-gray-50">
             <h3 className="text-lg font-semibold mb-3 text-gray-900">
