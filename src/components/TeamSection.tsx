@@ -38,7 +38,7 @@ const TeamSection = () => {
     <div className="w-full bg-blue-600 py-12 px-4">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl font-bold text-center mb-8 text-white">
-          The Team
+          The Man Behind It
         </h2>
 
         <div className="relative flex items-center justify-center">
