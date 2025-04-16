@@ -20,7 +20,7 @@ const Home = () => {
       <main className="pt-20">
         <HeroSection onAskQuestion={handleAskQuestion} />
         <LegalTopicsGrid />
-        <DemoSection videoUrl="https://www.youtube.com/watch?v=xvFZjo5PgG0" />
+        <DemoSection videoUrl="https://youtu.be/9kKKSNqZzRs" />
         <TeamSection />
       </main>
       <AthenaChatWidget />
